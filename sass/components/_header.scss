@@ -38,6 +38,7 @@
             }
             img {
                 max-width: 100%;
+                max-height: 100%;
                 @include transition;
             }
         }
@@ -48,6 +49,9 @@
             .navbar-brand {
                 width: 150px;
                 height: 40px;
+                // img {
+                //     height: 100%!important;
+                // }
             }
         }
         #main-navbar {
@@ -163,12 +167,12 @@
 }
 
 header.row {
-    background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+    background: url(../images/AIE_lightning.png) no-repeat scroll center bottom;
     background-size: cover;
 }
 
 header.alt-bg {
-    background: url(../images/header_bg_alt.jpg) no-repeat center center;
+    background: url(../images/AIE_lightning.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -465,3 +469,5 @@ header.video-bg {
     height: auto;
     width: 100%;
 }
+
+

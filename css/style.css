@@ -776,6 +776,9 @@ textarea.form-control {
   width: 150px;
   height: 40px;
 }
+.navbar.is-scrolling .navbar-header .navbar-brand img {
+  height: 100%;
+}
 
 .navbar.is-scrolling #main-navbar {
   padding-top: 0;
@@ -873,6 +876,16 @@ textarea.form-control {
 .top-banner .apple-watch {
   margin: 0 auto 61px;
 }
+.top-banner h2{
+  color: #5fb2ff!important;
+}
+.top-banner p{
+  color: #d2e8fc!important;
+}
+
+.navbar-default .nav li a {
+  color: #67d9ff!important;
+}
 
 @media (max-width: 991px) {
   .top-banner .apple-watch {
@@ -913,12 +926,12 @@ textarea.form-control {
 }
 
 header.row {
-  background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+  background: url(../images/REIS_D20110807JB_2003.jpg) no-repeat scroll center bottom;
   background-size: cover;
 }
 
 header.alt-bg {
-  background: url(../images/header_bg_alt.jpg) no-repeat center center;
+  background: url(../images/REIS_D20110807JB_2003.jpg) no-repeat center center;
   background-size: cover;
 }
 
